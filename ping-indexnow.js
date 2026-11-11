@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'tensor-flow.pages.dev';
+const HOST = 'tensor-flow.pageaura.xyz';
 const KEY = 'aa399f9070654e8ab22c8278d1773d1a';
-const KEY_LOCATION = `https://tensor-flow.pages.dev/aa399f9070654e8ab22c8278d1773d1a.txt`;
+const KEY_LOCATION = `https://tensor-flow.pageaura.xyz/aa399f9070654e8ab22c8278d1773d1a.txt`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
