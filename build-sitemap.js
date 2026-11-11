@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://tensor-flow.pages.dev';
+const DOMAIN = 'https://tensor-flow.pageaura.xyz';
 const KEY = 'aa399f9070654e8ab22c8278d1773d1a';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'tensor-flow.pages.dev' ||
+    url.hostname.toLowerCase() !== 'tensor-flow.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
